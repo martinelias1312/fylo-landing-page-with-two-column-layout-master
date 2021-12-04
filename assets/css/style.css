@@ -19,12 +19,56 @@
     --Open-sans-Font: 'Open Sans', sans-serif; /* Weights: 400 */
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
     line-height: 1.6;
     font-family: var(--Open-sans-Font);
-    font-weight: 400;
+    padding: 1.5em;
 }
 
+/* -- Header - navigation -- */
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo {
+    height: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: var(--Raleway-Font);
+}
+
+/* -- Main content -- */
+/* Heading - screen reader only */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Upper section */
+#uppersection {
+    background: url(/assets/img/bg-curve-mobile.svg) no-repeat bottom;
+    height: 100vh;
+}
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
