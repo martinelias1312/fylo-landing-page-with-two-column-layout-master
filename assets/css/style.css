@@ -1,3 +1,31 @@
+/* -- General settings -- */
 :root {
-    
+/* Primary colors */
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+
+/* Accent colors */
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+
+/* Neutral colors */
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+
+/* Headings, Call-to-actions, Header Navigation */
+    --Raleway-Font: 'Raleway', sans-serif; /* Weights: 400, 700 */
+
+/* Body font */
+    --Open-sans-Font: 'Open Sans', sans-serif; /* Weights: 400 */
 }
+
+body {
+    line-height: 1.6;
+    font-family: var(--Open-sans-Font);
+    font-weight: 400;
+}
+
+
+/* Footer signature */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
