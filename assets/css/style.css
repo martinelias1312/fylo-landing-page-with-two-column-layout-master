@@ -80,7 +80,7 @@ body {
     border: 0;
 }
 
-/* Upper section */
+/* -- Upper Section -- */
 #uppersection {
     height: 100vh;
     display: flex;
@@ -106,6 +106,7 @@ p {
     margin: 2em 0;
 }
 
+/* Upper section input + button */
 .upp-label {
     display: block;
 }
@@ -134,6 +135,10 @@ p {
 .get_started-btn:hover, .get_started-btn:focus {
     background: var(--Bright-Blue) 50%;
 }
+
+/* -- Lower Section -- */
+
+
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
