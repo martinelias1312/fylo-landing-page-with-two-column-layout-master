@@ -82,7 +82,7 @@ body {
 }
 
 #upper-section, #lower-section {
-    padding: 0 2em;
+    padding: 0 2em 4em;
 }
 
 /* Images width */
@@ -179,17 +179,42 @@ p {
     margin: 0;
 }
 
+/* Figure */
 .testimonial-figure {
     display: flex;
     flex-direction: row;
     margin: 1em 0;
 }
 
+.avatar-wrap {
+    max-width: 3.5em;
+    display: flex;
+}
+
 .avatar {
     max-width: 100%;
-    height: auto;
     border-radius: 50%;
 }
+
+.caption {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-family: var(--Raleway-Font);
+}
+
+.name, .person-info {
+    margin: 0;
+}
+
+.person-info {
+    font-size: 0.8em;
+}
+
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
