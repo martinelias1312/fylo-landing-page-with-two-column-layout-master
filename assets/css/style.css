@@ -81,12 +81,6 @@ body {
 }
 
 /* -- Upper Section -- */
-#uppersection {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 .upper-img {
     max-width: 100%;
     margin: 5em 0 2em;
