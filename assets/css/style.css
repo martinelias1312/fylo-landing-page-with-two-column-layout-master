@@ -136,13 +136,30 @@ p {
 }
 
 #get_started-btn:hover, #get_started-btn:focus {
-    background: var(--Bright-Blue);
     opacity: 0.8;
 }
 
 /* -- Lower Section -- */
 #lower-section {
     background: url(/assets/img/bg-curve-mobile.svg) var(--Light-Grayish-Blue) no-repeat;
+}
+
+.how-btn-wrap {
+    text-align: center;
+}
+
+.how-btn {
+    color: var(--Moderate-Cyan);
+    text-decoration: none;
+    border-bottom: 2px solid var(--Moderate-Cyan);
+}
+
+.arrow-btn {
+    background: url(/assets/img/icon-arrow.svg);
+}
+
+.how-btn:focus, .how-btn:hover {
+    opacity: 0.6;
 }
 
 /* Footer signature */
