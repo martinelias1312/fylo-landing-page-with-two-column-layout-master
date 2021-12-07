@@ -84,7 +84,42 @@ body {
 #uppersection {
     background: url(/assets/img/bg-curve-mobile.svg) no-repeat bottom;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.upper-img {
+    max-width: 100%;
+    margin: 5em 0 2em;
+}
+
+/* Upper section text */
+.upper-info {
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--Raleway-Font);
+    font-weight: 700;
+}
+
+p {
+    margin: 2em 0;
+}
+
+.upp-label {
+    display: block;
+}
+
+#email {
+    width: 100%;
+    color: var(--Light-Gray);
+    padding: 0.5em 1.5em;
+    border: solid 1px var(--Very-Dark-Blue);
+    border-radius: 3px;
+}
+
+
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
