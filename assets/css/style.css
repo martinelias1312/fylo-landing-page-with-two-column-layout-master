@@ -169,8 +169,27 @@ p {
 /* Quote card */
 .quote-card {
     background: var(--White);
+    margin: 3em 0;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    font-size: 0.9em;
 }
 
+.quote-text {
+    margin: 0;
+}
+
+.testimonial-figure {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 0;
+}
+
+.avatar {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
