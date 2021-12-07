@@ -11,6 +11,7 @@
 /* Neutral colors */
     --Light-Grayish-Blue: hsl(240, 75%, 98%);
     --Light-Gray: hsl(0, 0%, 75%);
+    --White: #fff;
 
 /* Headings, Call-to-actions, Header Navigation */
     --Raleway-Font: 'Raleway', sans-serif; /* Weights: 400, 700 */
@@ -144,6 +145,7 @@ p {
     background: url(/assets/img/bg-curve-mobile.svg) var(--Light-Grayish-Blue) no-repeat;
 }
 
+/* Button styling */
 .how-btn-wrap {
     text-align: center;
 }
@@ -155,11 +157,18 @@ p {
 }
 
 .arrow-btn {
-    background: url(/assets/img/icon-arrow.svg);
+    background: url(/assets/img/icon-arrow.svg) no-repeat;
+    padding-left: 1em;
+    margin-left: 0.5em;
 }
 
 .how-btn:focus, .how-btn:hover {
     opacity: 0.6;
+}
+
+/* Quote card */
+.quote-card {
+    background: var(--White);
 }
 
 /* Footer signature */
