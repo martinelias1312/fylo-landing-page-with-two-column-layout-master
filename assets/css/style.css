@@ -132,6 +132,12 @@ p {
     font-family: var(--Raleway-Font);
     font-weight: 700;
     color: var(--Light-Grayish-Blue);
+    cursor: pointer;
+}
+
+#get_started-btn:hover, #get_started-btn:focus {
+    background: var(--Bright-Blue);
+    opacity: 0.8;
 }
 
 /* -- Lower Section -- */
