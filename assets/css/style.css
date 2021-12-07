@@ -123,7 +123,7 @@ p {
     border-radius: 3px;
 }
 
-.get_started-btn {
+#get_started-btn {
     background: var(--Bright-Blue);
     width: 100%;
     border-radius: 3px;
@@ -132,10 +132,6 @@ p {
     font-family: var(--Raleway-Font);
     font-weight: 700;
     color: var(--Light-Grayish-Blue);
-}
-
-.get_started-btn:hover, .get_started-btn:focus {
-    cursor: pointer;    
 }
 
 /* -- Lower Section -- */
