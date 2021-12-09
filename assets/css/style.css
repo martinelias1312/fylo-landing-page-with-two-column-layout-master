@@ -218,7 +218,7 @@ p {
 /* -- Upper Footer Section -- */
 #upper-footer {
     background: var(--Desaturated-Blue);
-    padding: 1.8em;
+    padding: 1.8em 1.8em 4em 1.8em;
     text-align: center;
     color: var(--Light-Grayish-Blue);
 }
@@ -226,9 +226,34 @@ p {
 .upp-foot-form {
     display: flex;
     flex-direction: column;
+    gap: 1em;
+    align-items: center;
 }
 
+.upp-foot-form label {
+    min-width: 85%;
+}
 
+/* Form inputs */
+#free-email, #free-btn {
+    width: 100%;
+    border-radius: 3px;
+    border: 0;
+}
+
+#free-email { 
+    color: var(--Light-Gray);
+    padding: 0.6em 1em;
+}
+
+#free-btn {
+    background: var(--Bright-Blue);
+    padding: 0.8em;
+    font-family: var(--Raleway-Font);
+    font-weight: 700;
+    color: var(--Light-Grayish-Blue);
+    cursor: pointer;
+}
 
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
@@ -240,4 +265,3 @@ p {
 - section 2 background curve
 - Media queries
 - input border vysvietenie farba a text upozornenia a tiez farba
-- section 2 a nizsie
