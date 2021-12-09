@@ -274,7 +274,7 @@ p {
 }
 
 .footer-logo {
-      
+    filter: brightness(0) invert(1);  
 }
 
 /* Footer signature */
