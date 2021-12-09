@@ -215,6 +215,29 @@ p {
     font-size: 0.8em;
 }
 
+/* -- Upper Footer Section -- */
+#upper-footer {
+    background: var(--Desaturated-Blue);
+    padding: 1.8em;
+    text-align: center;
+    color: var(--Light-Grayish-Blue);
+}
+
+.upp-foot-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 /* Footer signature */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* issues: 
+- green arrow
+- nav bar links hover effect
+- section 2 background curve
+- Media queries
+- input border vysvietenie farba a text upozornenia a tiez farba
+- section 2 a nizsie
