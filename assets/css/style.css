@@ -67,6 +67,10 @@ body {
     color: var(--Very-Dark-Blue);
 }
 
+.nav-link:focus, .nav-link:hover {
+    font-weight: bold;
+}
+
 /* -- Main content -- */
 /* Heading - screen reader only */
 .sr-only {
@@ -161,6 +165,7 @@ p {
     color: var(--Moderate-Cyan);
     text-decoration: none;
     border-bottom: 2px solid var(--Moderate-Cyan);
+    padding-bottom: 5px;
 }
 
 .arrow-btn {
@@ -304,7 +309,6 @@ p {
 
 /* issues: 
 - socials icons, contact icons
-- pages list hover, link
 - nav bar links hover effect
 - Media queries
 - input border vysvietenie farba a text upozornenia a tiez farba
