@@ -277,6 +277,10 @@ p {
     padding-top: 3em;
 }
 
+.pages-list {
+    line-height: 1.8em;
+}
+
 .contact-list, .pages-list, .socials-list, .footer-logo {
     padding: 0 2.5em;
 }
@@ -285,7 +289,11 @@ p {
     list-style: none;
 }
 
-/* Pages link */
+/* Pages links */
+.pages-primary {
+    margin-bottom: 2em;
+}
+
 .pages-links {
     text-decoration: none;
     color: var(--Light-Grayish-Blue);
