@@ -280,6 +280,16 @@ p {
     list-style: none;
 }
 
+/* Pages link */
+.pages-links {
+    text-decoration: none;
+    color: var(--Light-Grayish-Blue);
+}
+
+.pages-links:hover, .pages-links:focus {
+    color: var(--Desaturated-Blue);
+}
+
 .footer-logo {
     filter: brightness(0) invert(1);  
 }
@@ -293,8 +303,8 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* issues: 
-- green arrow
+- socials icons, contact icons
+- pages list hover, link
 - nav bar links hover effect
-- section 2 background curve
 - Media queries
 - input border vysvietenie farba a text upozornenia a tiez farba
