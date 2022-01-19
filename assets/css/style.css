@@ -140,9 +140,16 @@ p {
     opacity: 0.8;
 }
 
+/* -- Curve picture -- */
+.bg-curve-mobile {
+    max-width: 100%; 
+    position: relative;
+    top: 6.8px;   
+}
+
 /* -- Lower Section -- */
 #lower-section {
-    background: url(/assets/img/bg-curve-mobile.svg) var(--Light-Grayish-Blue) no-repeat;
+    background: var(--Light-Grayish-Blue) no-repeat;
 }
 
 /* Button styling */
