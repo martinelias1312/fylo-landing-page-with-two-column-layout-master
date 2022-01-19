@@ -290,9 +290,23 @@ p {
 }
 
 /* Contact list */
-.contact-list li {
+.contact-list a {
+    text-decoration: none;
+    color: var(--Light-Grayish-Blue);
     display: flex;
     align-items: center;
+}
+
+.contact-list a:focus, .contact-list a:hover {
+    opacity: 0.5;
+}
+
+.contact-list li:nth-child(2) {
+    margin: 0.5em 0 2em;
+}
+
+.phone-icon, .mail-icon {
+    margin-right: 1em;
 }
 
 .phone-icon {
