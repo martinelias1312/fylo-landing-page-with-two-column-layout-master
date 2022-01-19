@@ -290,12 +290,23 @@ p {
 }
 
 /* Contact list */
+.contact-list li {
+    display: flex;
+    align-items: center;
+}
+
 .phone-icon {
     background: url(/assets/img/icon-phone.svg) no-repeat;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
 }
 
 .mail-icon {
     background: url(/assets/img/icon-email.svg) no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
 }
 
 /* Pages links */
