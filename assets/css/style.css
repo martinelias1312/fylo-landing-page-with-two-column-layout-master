@@ -136,7 +136,7 @@ p {
     cursor: pointer;
 }
 
-#get_started-btn:hover, #get_started-btn:focus {
+#get_started-btn:hover, #get_started-btn:focus, #free-btn:focus, #free-btn:hover {
     opacity: 0.8;
 }
 
