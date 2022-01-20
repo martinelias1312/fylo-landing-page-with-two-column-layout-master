@@ -354,7 +354,7 @@ p {
     gap: 0.5em;
 }
 
-.fa-li {
+.fa-li a {
     width: 2em;
     height: 2em;
     border: solid 1px var(--Light-Grayish-Blue);
@@ -362,10 +362,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: var(--Light-Grayish-Blue);
 }
 
-.fab {
-    color: var(--Light-Grayish-Blue);
+.fa-li a:focus, .fa-li a:hover {
+    color: var(--Bright-Blue);
+    border: 1px solid var(--Bright-Blue);
 }
 
 /* Footer signature */
@@ -377,7 +380,6 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* issues: 
-- socials icons styling
 - quote card shadows
 - Media queries
 - input border vysvietenie farba a text upozornenia a tiez farba
