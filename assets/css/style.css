@@ -350,6 +350,12 @@ p {
 .fa-ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.fab {
+    color: var(--Light-Grayish-Blue);    
 }
 
 /* Footer signature */
