@@ -258,6 +258,11 @@ p {
     padding: 0.6em 1em;
 }
 
+#free-email:focus, #email:focus {
+    border: 0.1px solid rgb(255, 0, 0, 0.4);
+    outline: none;
+}
+
 #free-btn {
     background: var(--Bright-Blue);
     padding: 0.8em;
@@ -342,7 +347,10 @@ p {
 }
 
 /* Socials */
-
+.fa-ul {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Footer signature */
 .attribution { 
@@ -353,7 +361,7 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* issues: 
-- socials icons
+- socials icons styling
 - quote card shadows
 - Media queries
 - input border vysvietenie farba a text upozornenia a tiez farba
