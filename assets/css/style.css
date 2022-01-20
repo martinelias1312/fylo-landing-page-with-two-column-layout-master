@@ -281,9 +281,6 @@ p {
 #lower-footer {
     background: var(--Very-Dark-Blue);
     color: var(--Light-Grayish-Blue);
-}
-
-.contact {
     padding-top: 3em;
 }
 
@@ -387,16 +384,42 @@ p {
 @media screen and ( min-width: 699px ) {
     #upper-section {
         display: flex;
-        flex-direction: row;
         flex-flow: row-reverse;
+        gap: 2em;
     }
     
-    .upper-img {
+    .upper-img, .upp_foot-text {
         max-width: 50%;
     }
 
-    #upper-form {
+    #lower-section {
+        text-align: center;
+    }
+
+    .quote-card {
+        text-align: left;
+    }
+
+    .lower-img, .lower-info {
+        max-width: 55%;
+    }
+    
+    .lower-info, .upp-foot-form {
+        margin: 0 auto;
+    }
+
+    #upper-footer, .contact-pages, .pages-list {
         display: flex;
         flex-direction: row;
+    }
+
+    .upp-foot-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pages-list {
+        gap: 3em;
+        margin-left: 7em;
     }
 }
