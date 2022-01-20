@@ -185,6 +185,7 @@ p {
     padding: 1em 1.5em;
     border-radius: 5px;
     font-size: 0.9em;
+    box-shadow: 1px 1px 10px #c9c9c9;
 }
 
 .quote-text {
@@ -378,8 +379,3 @@ p {
     margin-bottom: 0;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/* issues: 
-- quote card shadows
-- Media queries
-- input border vysvietenie farba a text upozornenia a tiez farba
