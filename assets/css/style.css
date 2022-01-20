@@ -120,6 +120,10 @@ p {
     gap: 1em;
 }
 
+#upper-form label {
+    max-width: 100%;
+}
+
 #email {
     width: 100%;
     color: var(--Light-Gray);
@@ -133,7 +137,7 @@ p {
     width: 100%;
     border-radius: 3px;
     border: 0;
-    padding: 0.8em;
+    padding: 0.7em;
     font-family: var(--Raleway-Font);
     font-weight: 700;
     color: var(--Light-Grayish-Blue);
@@ -379,3 +383,20 @@ p {
     margin-bottom: 0;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and ( min-width: 699px ) {
+    #upper-section {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row-reverse;
+    }
+    
+    .upper-img {
+        max-width: 50%;
+    }
+
+    #upper-form {
+        display: flex;
+        flex-direction: row;
+    }
+}
