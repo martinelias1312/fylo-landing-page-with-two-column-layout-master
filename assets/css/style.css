@@ -354,8 +354,18 @@ p {
     gap: 0.5em;
 }
 
+.fa-li {
+    width: 2em;
+    height: 2em;
+    border: solid 1px var(--Light-Grayish-Blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .fab {
-    color: var(--Light-Grayish-Blue);    
+    color: var(--Light-Grayish-Blue);
 }
 
 /* Footer signature */
