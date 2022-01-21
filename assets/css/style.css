@@ -434,6 +434,8 @@ p {
 
     .bg-curve-mobile {
         visibility: hidden;
+        position: absolute;
+        z-index: -999999;
     }
 
     .bg-curve-desktop {
@@ -447,6 +449,10 @@ p {
 @media screen and ( min-width: 999px ) {
     .upper-info {
         text-align: left;
+    }
+
+    .upper-img {
+        max-width: 45%;
     }
 
     #upper-form {
@@ -466,11 +472,13 @@ p {
         display: flex;
         flex-direction: row-reverse;
         text-align: left;
+        gap: 2em;
     }
 
     .lower-img {
+        max-width: 45%;
         height: 100%;
-        margin-top: 3em;
+        margin-top: 5em;
     }
 
     .how-btn-wrap {
@@ -495,5 +503,19 @@ p {
 
     .upp-foot-form label:nth-child(2) {
         max-width: 80%;
+    }
+
+    .contact-pages-socials {
+        display: flex;
+        gap: 4em;
+    }
+
+    .pages-list {
+        margin-left: 5em;
+        gap: 7em;
+    }
+
+    h2, h3 {
+        font-size: 2em;
     }
 }
