@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution url](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/fylo-landing-page-with-flexbox-semantic-html-jEvCB79p_](https://www.frontendmentor.io/solutions/fylo-landing-page-with-flexbox-semantic-html-jEvCB79p_)
 - Live Site URL: [https://fylo-landing-page-with-two-column-layout-master-eosin.vercel.app/](https://fylo-landing-page-with-two-column-layout-master-eosin.vercel.app/)
 
 ## My process
