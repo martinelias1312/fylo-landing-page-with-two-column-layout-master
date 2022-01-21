@@ -150,9 +150,16 @@ p {
 
 /* -- Curve picture -- */
 .bg-curve-mobile {
+    visibility: visible;
     min-width: 100%; 
     position: relative;
     top: 6.8px;   
+}
+
+.bg-curve-desktop {
+    visibility: hidden;
+    position: absolute;
+    z-index: -999999;
 }
 
 /* -- Lower Section -- */
@@ -425,5 +432,16 @@ p {
     .pages-list {
         gap: 3em;
         margin-left: 7em;
+    }
+
+    .bg-curve-mobile {
+        visibility: hidden;
+    }
+
+    .bg-curve-desktop {
+        visibility: visible;
+        width: 100%; 
+        position: relative;
+        top: 6.8px; 
     }
 }
