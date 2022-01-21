@@ -120,10 +120,6 @@ p {
     gap: 1em;
 }
 
-#upper-form label {
-    max-width: 100%;
-}
-
 #email {
     width: 100%;
     color: var(--Light-Gray);
@@ -392,6 +388,8 @@ p {
 }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+
+/* -- Media Queries -- */
 @media screen and ( min-width: 699px ) {
     #upper-section {
         display: flex;
@@ -443,5 +441,59 @@ p {
         width: 100%; 
         position: relative;
         top: 6.8px; 
+    }
+}
+
+@media screen and ( min-width: 999px ) {
+    .upper-info {
+        text-align: left;
+    }
+
+    #upper-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #upper-form label:first-child {
+        min-width: 55%;
+    }
+
+    #upper-form label:nth-child(2) {
+        min-width: 40%;
+    }
+
+    #lower-section {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+    .lower-img {
+        height: 100%;
+        margin-top: 3em;
+    }
+
+    .how-btn-wrap {
+        text-align: left;
+    }
+
+    .quote-card {
+        max-width: 70%;
+    }
+
+    .upp_foot-text {
+        text-align: left;
+    }
+
+    .upp-foot-form {
+        align-items: unset;
+    }
+
+    .upp-foot-form label:first-child {
+        min-width: 130%;
+    }
+
+    .upp-foot-form label:nth-child(2) {
+        max-width: 80%;
     }
 }
