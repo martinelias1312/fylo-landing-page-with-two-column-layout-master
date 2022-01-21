@@ -447,8 +447,17 @@ p {
 }
 
 @media screen and ( min-width: 999px ) {
+    .navbar {
+        margin: 1em 2em;
+    }
+    
+    #upper-section {
+        gap: 5em;
+    }
+    
     .upper-info {
         text-align: left;
+        margin-top: 5em;
     }
 
     .upper-img {
@@ -473,6 +482,10 @@ p {
         flex-direction: row-reverse;
         text-align: left;
         gap: 2em;
+    }
+
+    .lower-info p:only-child {
+        max-width: 70%;
     }
 
     .lower-img {
@@ -507,12 +520,12 @@ p {
 
     .contact-pages-socials {
         display: flex;
-        gap: 4em;
+        gap: 8em;
     }
 
     .pages-list {
         margin-left: 5em;
-        gap: 7em;
+        gap: 10em;
     }
 
     h2, h3 {
