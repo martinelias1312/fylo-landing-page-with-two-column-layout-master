@@ -295,7 +295,7 @@ p {
     padding: 0 2.5em;
 }
 
-.contact-list, .pages-list, .socials-list {
+.contact-list, .pages-list ul li, .socials-list {
     list-style: none;
 }
 
@@ -427,11 +427,6 @@ p {
         justify-content: center;
     }
 
-    .pages-list {
-        gap: 3em;
-        margin-left: 7em;
-    }
-
     .bg-curve-mobile {
         visibility: hidden;
         position: absolute;
@@ -523,16 +518,12 @@ p {
     }
 
     .pages-list {
-        margin: 0 10em;
+        margin: 0 7em;
         gap: 6em;
     }
 
     .pages-list ul {
         padding: 0;
-    }
-
-    .pages-list ul li {
-        list-style: none;
     }
 
     h2, h3 {
