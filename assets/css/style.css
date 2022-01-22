@@ -527,6 +527,10 @@ p {
         gap: 0em;
     }
 
+    .pages-list li:only-of-type {
+        display: flex;
+    }
+
     h2, h3 {
         font-size: 2em;
     }
