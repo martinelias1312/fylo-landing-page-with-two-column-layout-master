@@ -520,12 +520,11 @@ p {
 
     .contact-pages-socials {
         display: flex;
-        gap: 8em;
     }
 
     .pages-list {
-        margin-left: 5em;
-        gap: 10em;
+        margin-left: 0em;
+        gap: 0em;
     }
 
     h2, h3 {
