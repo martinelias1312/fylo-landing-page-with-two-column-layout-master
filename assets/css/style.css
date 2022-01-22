@@ -523,12 +523,16 @@ p {
     }
 
     .pages-list {
-        margin-left: 0em;
-        gap: 0em;
+        margin: 0 10em;
+        gap: 6em;
     }
 
-    .pages-list li:only-of-type {
-        display: flex;
+    .pages-list ul {
+        padding: 0;
+    }
+
+    .pages-list ul li {
+        list-style: none;
     }
 
     h2, h3 {
